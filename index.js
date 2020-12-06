@@ -3,7 +3,7 @@ const app = exress();
 
 const PORT = 8080;
 
-app.get("/", (res, req) => {
+app.get("/", (req, res) => {
   res.send(
     JSON.stringify({
       name: "PawaOx4th",
