@@ -1,7 +1,7 @@
 const exress = require("express");
 const app = exress();
 
-const PORT = 8080;
+const PORT = 3000;
 
 app.get("/", (req, res) => {
   res.send(
